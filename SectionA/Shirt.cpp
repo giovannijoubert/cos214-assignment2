@@ -2,7 +2,7 @@
 #include <iostream>
 
 Shirt::Shirt(string cClub, double cPrice, string cSize) 
-    : Merchandise(cClub, cPrice, "Ball"){
+    : Merchandise(cClub, cPrice, "Shirt"){
         size = cSize;
     }
 

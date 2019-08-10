@@ -2,7 +2,7 @@
 #include <iostream>
 
 SoccerBall::SoccerBall(string cClub, double cPrice, bool cInflated) 
-    : Merchandise(cClub, cPrice, "Ball"){
+    : Merchandise(cClub, cPrice, "SoccerBall"){
         inflated = cInflated;
     }
 

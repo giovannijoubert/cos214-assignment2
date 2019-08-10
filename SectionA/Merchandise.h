@@ -9,6 +9,7 @@ using namespace std;
 		
 	    public:
             Merchandise(string, double, string);
+            ~Merchandise();
             virtual string getDescription();
 
         private:
@@ -16,7 +17,7 @@ using namespace std;
             double price;
             string type;
             static int id;
-            const int currentID;
+          //  const int currentID;
 	};
 
 #endif
