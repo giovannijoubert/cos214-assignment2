@@ -38,6 +38,8 @@ int main() {
       cin >> size;
     }
 
+    cInflated = toupper(cInflated);
+
     cout << "How many marchandise items should be created? >";
     cin >> count;
     for (int j = 0; j < count; j++) {
